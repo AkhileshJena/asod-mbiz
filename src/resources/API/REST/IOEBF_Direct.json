@@ -1,0 +1,15 @@
+{
+    "InquireOfferElementsByFANRequest": {
+        "RequestId": "ROME-030818-09530",
+        "SourceSystem": "BIZAPP",
+        "FAN": {
+            "FANNumber": "{fanNumber}",
+            "OEType": [
+                "Service Discount"
+            ],
+            "SystemCode": [
+                "Service Discount"
+            ]
+        }
+    }
+}
