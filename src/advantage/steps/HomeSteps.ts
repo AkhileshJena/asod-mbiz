@@ -26,7 +26,7 @@ export default class HomeSteps {
      */
     public async login(userName: string, password: string) {
         await test.step(`Login to application credentials as ${userName} & ${password}`, async () => {
-            await this.ui.element(HomePage.USER_ICON, HomePageConstants.USER_ICON).click();
+            // await this.ui.element(HomePage.USER_ICON, HomePageConstants.USER_ICON).click();
             await this.enterLoginDetails(userName, password);
         });        
     }
@@ -39,7 +39,7 @@ export default class HomeSteps {
         await test.step(`Enter login credentials as ${userName} & ${password}`, async () => {
             await this.ui.editBox(HomePage.USER_NAME_TEXTBOX, HomePageConstants.USER_NAME).fill(userName);
             await this.ui.editBox(HomePage.PASSWORD_TEXTBOX, HomePageConstants.PASSWORD).fill(password);
-            await this.ui.checkbox(HomePage.REMEMBER_ME_CHECKBOX, HomePageConstants.REMEMBER_ME_CHECKBOX).check();
+            // await this.ui.checkbox(HomePage.REMEMBER_ME_CHECKBOX, HomePageConstants.REMEMBER_ME_CHECKBOX).check();
             await this.ui.element(HomePage.SIGN_IN_BUTTON, HomePageConstants.SIGN_IN_BUTTON).click();
         });
     }

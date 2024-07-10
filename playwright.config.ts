@@ -70,6 +70,6 @@ const config: PlaywrightTestConfig = {
   
 };
 export default config;
-console.log(`Browser: ${process.env.BROWSER}`);
-console.log(`Test Name: ${process.env.TEST_NAME}`);
-console.log(`Test Directory: ${config.testDir}`);
+// console.log(`Browser: ${process.env.BROWSER}`);
+// console.log(`Test Name: ${process.env.TEST_NAME}`);
+// console.log(`Test Directory: ${config.testDir}`);
