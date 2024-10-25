@@ -63,6 +63,10 @@ Change the TEST_NAME in .env file and run below command.
 $env:TEST_NAME='RESTUserTest.spec.ts'; if ($?) { npm run local:test }
 ```
 
+To rset name and Tests locally for DBTest - 
+```sh
+$env:TEST_NAME='DatabaseTest.spec.ts'; if ($?) { npm run local:test }
+```
 
 To generate Allure report use below command
 ```sh
